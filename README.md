@@ -1,8 +1,30 @@
-# Casper
+# sasper
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+The modified default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+To download, visit the [releases](https://github.com/sesser/sasper/releases) page.
+
+## Key Differences
+
+### Disqus Support
+Added [disqus](https://disqus.com/) support (thanks to [Uno-Zen](https://github.com/Kikobeats/uno-zen) theme by @kikobeats). To make it work, signup for an account and add the following to your Code Injection > Blog Header:
+
+```html
+<script> var disqus_shortname = 'your-shortname'; </script>
+```
+### Google Analytics support
+Added Google Analytics support (thanks to [Uno-Zen](https://github.com/Kikobeats/uno-zen) theme by @kikobeats). Just add the following to your Code Injection > Blog Header:
+
+```html
+<script>var ga_id = 'your-ga-account';</script>
+```
+
+### Photo Captions
+Added some styles to support a small caption under photos. Just add an element after each image with a class of `photo-caption` and your ready to rock.
+
+```html
+<small class="photo-caption">This is a photo caption</small>
+```
 
 ## Copyright & License
 
